@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Highlighter</title>
+</head>
+<body>
+<pre><span style="color: #E64E29;"># This is a comment</span>
+
+def factorial(num):
+    print(<span style="color: #9C27B0;">"Calculating factorial... "</span>)
+
+    <span style="color: #D32F2F;">if</span> num <span style="color: #0000FF;"><</span> <span style="color: #F9A825;">0</span>:
+        return <span style="color: #9C27B0;">"Factorial is not defined for negative numbers"</span>
+    
+    result <span style="color: #0000FF;">=</span> <span style="color: #F9A825;">1</span>
+    
+    <span style="color: #D32F2F;">while</span> num <span style="color: #0000FF;">></span> <span style="color: #F9A825;">1</span>:
+        result <span style="color: #0000FF;">*</span><span style="color: #0000FF;">=</span> num
+        num <span style="color: #0000FF;">-</span><span style="color: #0000FF;">=</span> <span style="color: #F9A825;">1</span> 
+    
+    return result
+
+num <span style="color: #0000FF;">=</span> <span style="color: #F9A825;">5</span>
+fact <span style="color: #0000FF;">=</span> factorial(num)
+print(<span style="color: #9C27B0;">"Factorial of"</span>, num, <span style="color: #9C27B0;">"is"</span>, fact)
+</pre>
+</body>
+</html>
