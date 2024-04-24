@@ -4,7 +4,7 @@ def highlight_code(text):
     # Styles
     styles = {
         'operator': 'color: #0000FF;',
-        'comment': 'color: #E64E29;',
+        'comment': 'color: #008000;',
         'string': 'color: #9C27B0;',
         'integer': 'color: #F9A825;',
         'assign_operator': 'color: #689F38;',
@@ -19,7 +19,7 @@ def highlight_code(text):
         'string': (r'"([^"\\]|\\.)*"|\'([^\'\\]|\\.)*\'', styles['string']),
         'integer': (r'\b\d+\b', styles['integer']),
         'assign_operator': (r'[+\-\*/]?=', styles['assign_operator']),
-        'keyword': (r'if|else|for|while', styles['keyword']),
+        'keyword': (r'if|else|for|while|def', styles['keyword']),
         
     }
   
